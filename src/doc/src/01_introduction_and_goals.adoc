@@ -32,7 +32,7 @@ Ich habe mich dazu entschieden, einen Transpiler und einen Interpreter zu schrei
 [cols="1,1,2" options="header"]
 |===
 |Rolle |Kontakt |Erwartungshaltung
-| _Lehrer_ | _Herr von Känel_ | _Sollte ein Interpreter für eine Esolang Sprache / eigene Sprache sein._
+| _Lehrer_ | _Herr von Känel_ | _Sollte ein Interpreter / Transpiler / Compiler für eine Esolang Sprache / eigene Sprache sein._
 | _Entwickler_ | _-_ | _Können ein Bild im Code angeben und dann wird jeder Pixel gecheckt, ob er eine passende Farbe hat. Wenn das so ist wird der Pixel zu einem Brainfuck Zeichen umgewandelt und am Schluss wird der ganze Brainfuck Code ausgegeben. Danach wird der Brainfuck Code durch einen Interpreter ausgebeben._
-| _Autor_ | _Timo Angst_ | _Eine gute Note mit meinem Projekt erreichen zu können.
+| _Autor_ | _Timo Angst_ | _Eine gute Note mit meinem Projekt erreichen zu können._
 |===
