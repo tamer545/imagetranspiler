@@ -1,0 +1,23 @@
+[[section-building-block-view]]
+== Bausteinsicht
+
+
+
+=== Whitebox Gesamtsystem
+
+image::bausteinsicht.jpg[]
+
+==== Main()
+* Erstellt die Klasse Interpreter
+
+==== Interpreter()
+* Konstruktor von der Interpreter Klasse -> wird aufgerufen sobald die Klasse erstellt wird
+
+==== validate()
+* Ruft die Methode checkImage() vom Transpiler auf und validiert den erhaltenen Brainfuck Code
+
+==== interpret()
+* Interpreted den Brainfuck Code bei erfolgreicher Validierung und gibt das Ergebnis aus
+
+==== checkImage()
+* Scannt Pixel für Pixel aus dem Bild und erstellt daraus den Brainfuck Code

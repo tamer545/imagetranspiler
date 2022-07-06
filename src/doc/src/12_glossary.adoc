@@ -1,0 +1,22 @@
+[[section-glossary]]
+== Glossar
+
+
+
+[cols="e,2e" options="header"]
+|===
+|Begriff |Definition
+
+|Brainfuck
+|Brainfuck ist eine esoterische Programmiersprache, die der Aminet-Gründer, der Schweizer Urban Müller, im Jahre 1993 entwarf.
+
+|Transpiler
+|Übersetzt eine Programmiersprache in eine andere
+
+|Compiler
+|Computerprogramm, das von einer Programmiersprache in eine andere übersetzen kann
+
+|Interpreter
+|Als Interpreter wird ein Computerprogramm bezeichnet, das eine Abfolge von Anweisungen anscheinend direkt ausführt, wobei das Format der Anweisungen vorgegeben ist.
+
+|===

@@ -1,0 +1,38 @@
+[[section-runtime-view]]
+== Laufzeitsicht
+
+
+
+=== _Erfolgreich_
+
+* 1. Bild angeben
+* 2. Programm starten
+* 3. Bild wird gescanned - jede gültige Farbe wird zum Brainfuck Code appended
+* 4. Brainfuck Code wird validiert
+* 5. Brainfuck Code okay - Code wird interpretiert
+* 6. Ergebnis wird ausgegeben
+
+=== _Bild nicht valid_
+
+* 1. Bild angeben
+* 2. Programm starten
+* 3. Bild ist nicht valid
+* 4. Programm gibt einen Error aus
+
+=== _Brainfuck-Code invalid_
+
+* 1. Bild angeben
+* 2. Programm starten
+* 3. Bild wird gescanned - jede gültige Farbe wird zum Brainfuck Code appended
+* 4. Brainfuck Code wird validiert
+* 5. Brainfuck Code nicht okay
+* 6. Meldung wird ausgegeben
+
+=== _Brainfuck-Code ohne Ausgabe_
+
+* 1. Bild angeben
+* 2. Programm starten
+* 3. Bild wird gescanned - jede gültige Farbe wird zum Brainfuck Code appended
+* 4. Brainfuck Code wird validiert
+* 5. Brainfuck Code okay - aber gibt keine Ausgabe
+* 6. Nichts wird ausgegeben

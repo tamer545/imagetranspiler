@@ -1,0 +1,26 @@
+[[section-deployment-view]]
+== Verteilungssicht
+
+
+
+=== Infrastruktur Ebene 1
+
+image::deployment1.jpg[]
+
+Begründung::
+Der Transpiler transpiliert das eingebette Bild zu Brainfuck Code
+
+Qualitäts- und/oder Leistungsmerkmale:: Es wird schnell und unkompliziert transpiliert
+
+Zuordnung von Bausteinen zu Infrastruktur:: Es wird beim Start des Programms gemacht
+
+=== Infrastruktur Ebene 2
+
+image::deployment2.jpg[]
+
+Begründung::
+Der Compiler compiled den Brainfuck Code zu einem Resultat
+
+Qualitäts- und/oder Leistungsmerkmale:: Es wird schnell und unkompliziert kompiliert
+
+Zuordnung von Bausteinen zu Infrastruktur:: Es wird zum Schluss des Programms gemacht

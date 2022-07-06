@@ -1,0 +1,17 @@
+[[section-architecture-constraints]]
+== Randbedingungen
+
+Die Entscheidung, wie oder über was wir unser Projekt machen, war uns frei. Zu beachten gab es nur, dass man entweder einen Compiler, einen Transpiler oder einen Interpreter programmieren musste.
+Für das Projekt hatten wir circa 4 Wochen Zeit, also in etwa 12 Lektionen (abzüglich Erklärungen etc).
+Die Zeit war extra so auf die 4 Wochen aufgeteilt, damit die Lehrer unser Projekt noch vor den Sommerferien korrigieren können.
+Somit fliesst diese Note noch in das jetzige Zeugnis ein.
+[cols="1,2" options="header"]
+|===
+|Randbedingungen |Erläuterung
+| _Thema_ | Das Thema war einem frei, ausser dass es entweder ein Interpreter, Transpiler oder Compiler sein muss.
+Ich habe eine Mischung davon gemacht - einen Transpiler und dann noch einen Interpreter.
+| _Zeitlimit_ | 4 Wochen
+| _Team_ | Einzelarbeit
+| _Abgabe_ | Die Doku muss als PDF abgegeben werden. Der Rest ist auf Github
+| _Testen_ | Keine Tests
+|===

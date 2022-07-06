@@ -1,0 +1,9 @@
+[[section-technical-risks]]
+== Risiken und technische Schulden
+
+* Falls man ein sehr grosses Bild hat (mit ca.4k Pixeln oder so) wird die Wartezeit vermutlich sehr lange sein, da der Code jeden einzelnen Pixel kontrollieren muss.
+
+* Bei einer ungültigen Bilddatei könnte das Programm crashen oder einen Error ausgeben
+
+
+

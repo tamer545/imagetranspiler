@@ -1,0 +1,38 @@
+[[section-introduction-and-goals]]
+== Einführung und Ziele
+
+Dies ist meine Doku über meinen Image / Color Transpiler
+
+=== Aufgabenstellung
+==== Was ist der Image Transpiler?
+* Liest ein Image ein und wandelt es in Brainfuck um
+* Je nach dem welche Farbe der aktuelle Pixel im Bild hat, wird der Brainfuck Code anders aussehen
+
+==== Wesentliche Features
+* Jeder Pixel eines Bildes wird auf Farben gecheckt
+* Farben sind verschiedene Brainfuck Zeichen
+* Brainfuck Code wird ausgegeben
+* Brainfuck Code wird interpreted und das Resultat wird ausgegeben
+
+==== Qualitätsziele
+
+[cols="1,2" options="header"]
+|===
+|Qualitätsziele |Erklärung
+| _Image Transpiler_ | _Einen erfolgreichen Image zu Brainfuck transpiler herstellen_
+| _Brainfuck Validierung_ | _Eine Methode erstellen, welche den Brainfuck-Code validiert_
+| _Brainfuck Interpreter_ | _Einen Interpreter schaffen, welcher von einem Brainfuck Code ein Resultat ausgibt._
+|===
+=== Stakeholder
+
+Der Auftrag war es, selber einen Interpreter, Transpiler oder einen Compiler mit einer beliebigen Sprache zu programmieren.
+Man konnte auch entscheiden, ob man eine Sprache komplett neu erfinden will oder einfach eine Sprache zu einer anderen zu übersetzen.
+Ich habe mich dazu entschieden, einen Transpiler und einen Interpreter zu schreiben.
+
+[cols="1,1,2" options="header"]
+|===
+|Rolle |Kontakt |Erwartungshaltung
+| _Lehrer_ | _Herr von Känel_ | _Sollte ein Interpreter für eine Esolang Sprache / eigene Sprache sein._
+| _Entwickler_ | _-_ | _Können ein Bild im Code angeben und dann wird jeder Pixel gecheckt, ob er eine passende Farbe hat. Wenn das so ist wird der Pixel zu einem Brainfuck Zeichen umgewandelt und am Schluss wird der ganze Brainfuck Code ausgegeben. Danach wird der Brainfuck Code durch einen Interpreter ausgebeben._
+| _Autor_ | _Timo Angst_ | _Eine gute Note mit meinem Projekt erreichen zu können.
+|===

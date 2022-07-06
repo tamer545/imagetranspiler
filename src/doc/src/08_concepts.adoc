@@ -1,0 +1,16 @@
+[[section-concepts]]
+== Querschnittliche Konzepte
+=== _Versionskontrolle_
+
+Die Versionskontrolle von diesem Projekt ist GitHub
+
+=== _Fehlerbehandlung_
+
+Fehler werden durch verschiedene Wege behandelt. Hier eine kleine Tabelle dazu.
+
+|===
+|Fehler |Folge
+| _Ungültige Farbe_ | _Pixel wird ignoriert_
+| _Ungültiger Brainfuckcode_ | _Eine Meldung wird ausgegeben: "Brainfuckcode ist ungültig"_
+| _Brainfuckcode ist valid, aber Resultat leer_ | _Keine Ausgabe des Resultats erfolgt_
+|===

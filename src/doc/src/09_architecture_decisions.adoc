@@ -1,0 +1,25 @@
+[[section-design-decisions]]
+== Architekturentscheidungen
+
+=== Console Output
+
+Mein Programm kann gesteuert werden über die Konsole. Dies habe ich so gemacht, da wir nicht viel Zeit hatten und es so auch praktisch ist, da nichts extra starten muss.
+
+Eine andere Möglichkeit wäre ein GUI gewesen, welches für einen User viel einfacher ist um anzuwenden. Jedoch wird dieses Programm sowieso nicht von einem normalen User genutzt werden.
+[cols="2,2" options="header"]
+|===
+|Konsole | GUI
+
+|+ Simpel
+|+ User Friendly
+
+|+ Weniger Zeitaufwand
+|+ Schöner
+
+|- Nicht wirklich User Friendly
+|- Viel Zeitaufwand
+
+|===
+=== Interpreter / Transpiler / Compiler
+Ich habe mich entschieden, einen Transpiler und einen Compiler zu machen, da ich ein bisschen mehr machen wollte, als nur einen langweiligen Compiler / Transpiler.
+Dazu habe ich eine Idee umgesetzt, welche ich so noch nirgens gesehen oder gehört habe. Davor wusste ich gar nicht, dass man durch ein Bild etwas Transpilen kann.

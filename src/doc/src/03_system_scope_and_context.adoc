@@ -1,0 +1,30 @@
+[[section-system-scope-and-context]]
+== Kontextabgrenzung
+
+=== Fachlicher Kontext
+
+==== User
+* Lädt eine Bild Datei in das Programm und startet es
+
+==== Transpiler
+* Der Transpiler checkt jeden Pixel des angegebenen Bildes auf eine der folgenden RGB's
+** 255, 255, 255
+** 0, 0, 0
+** 0, 255, 0
+** 255, 0, 0
+** 0, 0, 255
+** 128, 128, 128
+** 255, 255, 0
+** 0, 255, 255
+
+Je nach dem, welche RGB der momentane Pixel hat, wird ein anderes Brainfuck Zeichen ausgegeben.
+
+=== Compiler
+* Sobald der Brainfuck Code vom Transpiler angekommen ist, kontrolliert ihn der Compiler auf Syntax-Errors oder andere Fehler im Code. Bei korrektem Code wird er compiled und das Resultat wird ausgegeben.
+
+=== Ausgabe
+* Über den ganzen Prozess hinweg wird einmal der Brainfuck Code, allfällige Fehler und das Resultat ausgegeben
+
+=== Technischer Kontext
+
+* Der Code ist mit Java geschrieben und verwendet ein .png oder .jpg Image

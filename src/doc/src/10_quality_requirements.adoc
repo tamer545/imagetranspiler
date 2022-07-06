@@ -1,0 +1,22 @@
+[[section-quality-scenarios]]
+== Qualitätsanforderungen
+
+=== Qualitätsbaum
+image::qualityTree.jpg[]
+
+==== Bewertungen
+* JUnit 0/10 -> Ich habe keine JUnit Tests geschrieben, da wir dafür zu wenig Zeit bekamen
+* Whitebox 8/10 -> Ich habe selber beim schreiben vom Code sehr viel getestet
+* Code 8.5/10 -> Mein Code ist übersichtlich, objektorientiert und strukturiert
+* Benutzer 6/10 -> Es gibt kein GUI aber ist trotzdem simpel zu bedienen
+* Efficiency 7/10 -> Das Programm ist sehr schnell, solange man nicht 4k Bilder oder so mitgibt
+
+=== Qualitätsszenarien
+|===
+|Szenario |Folge
+| _Ungültige Farbe_ | _Pixel wird ignoriert_
+| _Ungültiges Bildformat_ | _Error wird geworfen_
+| _Ungültiger Brainfuckcode_ | _Eine Meldung wird ausgegeben: "Brainfuckcode ist ungültig"_
+| _Brainfuckcode ist valid, aber Resultat leer_ | _Keine Ausgabe des Resultats erfolgt_
+|===
+

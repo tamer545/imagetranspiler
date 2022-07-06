@@ -1,0 +1,3 @@
+[[section-solution-strategy]]
+== Lösungsstrategie
+Zuerst habe ich im Internet ein bisschen recherchiert, um herauszufinden, wie man ein Bild Pixel für Pixel einlesen kann und die Farbe bekommen kann, dann habe ich angefangen am Transpiler zu arbeiten. Sobald ich diesen lauffähig hatte, habe ich eine Compiler Klasse erstellt, welche den Brainfuck Code vom Transpiler verarbeitet.
